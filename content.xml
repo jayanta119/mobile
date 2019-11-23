@@ -1,0 +1,30 @@
+package ratingbar.example.com.inbox;
+ 
+/**
+ * Created by Ramees on 8/19/2016.
+ */
+public class SmsModel {
+ 
+    String mobile,message;
+ 
+    public SmsModel(String mobile, String message) {
+        this.mobile = mobile;
+        this.message = message;
+    }
+ 
+    public String getMobile() {
+        return mobile;
+    }
+ 
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
+ 
+    public String getMessage() {
+        return message;
+    }
+ 
+    public void setMessage(String message) {
+        this.message = message;
+    }
+}
